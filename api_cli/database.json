@@ -1,0 +1,100 @@
+{
+    "users": [
+        {
+            "id": 0,
+            "name": "Pedro André",
+            "email": "pedro@pedro.com.br",
+            "password": "dart"
+        },
+        {
+            "id": 1,
+            "name": "O cabra lá",
+            "email": "cabra@la.com",
+            "password": "northWest"
+        }
+    ],
+    "products": [
+        {
+            "id": 0,
+            "title": "Registro JRS 1"
+        },
+        {
+            "id": 1,
+            "title": "Registro JRS 2"
+        },
+        {
+            "id": 2,
+            "title": "Registro JRS 3"
+        }
+    ],
+    "bound": [
+        {
+            "id": 0,
+            "name": "Pedro André",
+            "age": 31,
+            "productsBound": [
+                "Registro JRS 1",
+                "Registro JRS 2"
+            ],
+            "paidVerify": [
+                {
+                    "id": 0,
+                    "product": "Registro JRS 1",
+                    "paid": false
+                },
+                {
+                    "id": 1,
+                    "product": "Registro JRS 2",
+                    "paid": true
+                }
+            ],
+            "address": {
+                "street": "Rua Strong Enouth",
+                "number": 55,
+                "zipCode": "4444444444",
+                "city": {
+                    "id": 0,
+                    "name": "Valente"
+                },
+                "phone": {
+                    "ddd": 75,
+                    "phone": "988889009"
+                }
+            }
+        },
+        {
+            "id": 0,
+            "name": "O cabra lá",
+            "age": 38,
+            "productsBound": [
+                "Registro JRS 2",
+                "Registro JRS 3"
+            ],
+            "paidVerify": [
+                {
+                    "id": 0,
+                    "product": "Registro JRS 3",
+                    "paid": false
+                },
+                {
+                    "id": 1,
+                    "product": "Registro JRS 2",
+                    "paid": true
+                }
+            ],
+            "address": {
+                "street": "Rua Vira Esquina",
+                "number": 88,
+                "zipCode": "4444444423",
+                "city": {
+                    "id": 0,
+                    "name": "Valente"
+                },
+                "phone": {
+                    "ddd": 75,
+                    "phone": "988889123"
+                }
+            }
+        }
+    ]
+}
